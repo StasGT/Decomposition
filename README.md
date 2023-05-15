@@ -14,7 +14,7 @@ self.bn2n = nn.BatchNorm2d(32)<br>
 self.conv3 = nn.Conv2d(32, 32, 5, stride=1, padding=2) # 32 map by kernel 5x5<br>
 self.conn 4 = nn.Conv2d(32, 1, 1, 1, 0) # 32 map by kernel 1x1 to 1 map<br>
 self.activation = nn.ReLU()<br>
-self.fc1 = nn.Linear(32*32, 100) # Classify 1024 pixels into 100 classes<br>
+self.fc1 = nn.Linear(32*32, 100) # Classify 1024 pixels to 100 classes<br>
 <a href="https://github.com/StasGT/Decomposition/blob/main/CIFAR100_simpleNET.ipynb">CIFAR100_simpleNET</a><br>
 Accuracy: 21% after 5 epochs / hmm, not very bad<br><br>
 What if we add depth information between feature maps to the last convolutional layer...<br>
