@@ -1,5 +1,5 @@
 <H1>Low_cost == high_perfomance<br></H1>
-Decomposition of convolutional networks, and 1 step to the side = 2 steps forward.<br>
+<i>Decomposition of convolutional networks, and 1 step to the side = 2 steps forward.</i><br>
 In modern architectures of convolutional networks, the "BottleNeck" design is actively used, which performs the tasks of generalizing feature maps, decomposition, and, consequently, reducing the computational load. The effect is difficult to overestimate, it is astronomical.<br>
 The 1x1 pixel kernel convolution indirectly participates in the CP-decomposition process, as in the image below:<br>
 <img src="https://github.com/StasGT/Decomposition/blob/main/1.png" /><br>
