@@ -26,7 +26,10 @@ xD1 = torch.transpose(xD1, 1, 2) # Change back<br><br>
 
 x = torch.cat((xn, xD1, xD2), 1) # concatenation<br>
 x = self.activation(self.bn7(x)) # normalization & activation<br>
-<a href="https://github.com/StasGT/Decomposition/blob/main/CIFAR100_advanced_simple_NET.ipynb">CIFAR100_advanced_simple_NET</a><br>
+<a href="https://github.com/StasGT/Decomposition/blob/main/CIFAR100_advanced_simple_NET.ipynb">CIFAR100_advanced_simple_NET</a>
+<a href="https://colab.research.google.com/drive/1qLS_LQkIW5z6MlBdSo6aKSd1b002jcZs?usp=sharing"> - colab notebook</a>
+<br>
+
 So, this is much better. And this is with a negligibly small number of parameters - 282 925. This works the same as in the attention networks work key-value. I've trained this network to 45 percent accuracy and you can repeat.<br>
 <br>Links:<br>
 <a href="https://www.researchgate.net/publication/269935399_Speeding-up_Convolutional_Neural_Networks_Using_Fine-tuned_CP-Decomposition">Speeding-up Convolutional Neural Networks Using Fine-tuned CP-Decomposition</a>
